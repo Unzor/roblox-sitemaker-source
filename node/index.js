@@ -1,4 +1,3 @@
-var _url_="YOUR URL HERE";
 const axios = require('axios');
   var express = require('express')
 var app = express()
@@ -36,7 +35,7 @@ app.get('/page_' + _created_, function (reeq, res) {
 res.send(html);
 });
 
-res.json({site: _url_ + _created_});
+res.json({site: "https://makeasite.seven7four4.repl.co/site_" + _created_});
 });
 
 var server = app.listen(8000, function () {  
