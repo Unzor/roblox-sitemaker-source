@@ -9,11 +9,10 @@ cd roblox-sitemaker-source
 cd node
 npm init -y
 npm install
-node node/index.js
 ```
-After that, your page should be running at localhost:8000.
+your page should be running at localhost:8000.
 Port your site to NGROK, or use other software, like Replit or Glitch.
-When you have your site, copy it, and save it for later.
+After that, change the default URL ("https://makeasite.seven7four4.repl.co") to your NGROK URL (or other site). Save the NGROK URL for later.
 
 Create a new ROBLOX game, and turn on HTTP requests.
 Then, add the "SiteMaker.lua" file to your game in ReplicatedStorage. (You can paste it in a ModuleScript too)
