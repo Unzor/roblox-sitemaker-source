@@ -27,3 +27,5 @@ local page_creator=require(game.ReplicatedStorage.SiteCreator)
 local h=page_creator.makeSite("<p> Hello World! </p>")
 print(h)
 ```
+
+The code above will create a new webpage and print its URL.
