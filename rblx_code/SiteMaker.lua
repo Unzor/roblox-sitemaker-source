@@ -1,3 +1,5 @@
+local _url_ = "YOUR URL HERE"
+
 --[[
 SiteCreator v1.0
 
@@ -38,7 +40,7 @@ h.makeSite=function(code)
 	
 	print(array)
 	
-	local site=game.HttpService:PostAsync("https://makeasite.seven7four4.repl.co/newSite", array)
+	local site=game.HttpService:PostAsync(_url_+"/newSite", array)
 	local siteData=game.HttpService:JSONDecode(site)
 
 return siteData.site
